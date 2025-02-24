@@ -1,0 +1,76 @@
+.profile-container {
+  max-width: 900px;
+  margin: 50px auto;
+  background: linear-gradient(to right, #800000, #ffd700);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+
+.profile-title {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.profile-picture {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #800000;
+}
+
+.verified-badge {
+  font-size: 18px;
+  color: #ffd700;
+}
+
+.profile-username {
+  font-size: 16px;
+  color: #666;
+}
+
+.btn {
+  background-color: #800000;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #660000;
+}
+
+.btn-save {
+  background-color: #008000;
+}
+
+.btn-cancel {
+  background-color: #ff0000;
+}
+
+.btn-save:hover {
+  background-color: #006400;
+}
+
+.btn-cancel:hover {
+  background-color: #cc0000;
+}
